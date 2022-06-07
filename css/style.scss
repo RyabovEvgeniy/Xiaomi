@@ -1,0 +1,20 @@
+//Обнуляющий стиль
+@import "_null";
+
+body {
+	font-family: 'Inter', sans-serif;
+	background: #fff;
+	color: #131313;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 1.2;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+.main {
+	flex: 1 1 auto;	
+}
