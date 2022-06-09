@@ -242,3 +242,40 @@ body {
 .slick-active button {
   background-color: #ff4040;
 }
+
+.info__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0px 0px 150px 0px;
+}
+
+.info__img {
+  margin: 0px 60px 0px 0px;
+  -ms-flex-preferred-size: 570px;
+      flex-basis: 570px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.info__content {
+  -ms-flex-preferred-size: 490px;
+      flex-basis: 490px;
+}
+
+.info__item:not(:last-child) {
+  margin: 0px 0px 50px 0px;
+}
+
+.info__item-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.18;
+  text-transform: uppercase;
+  margin: 0px 0px 10px 0px;
+}
+
+.info__item-text {
+  max-width: 450px;
+  line-height: 1.21;
+}
