@@ -49,7 +49,7 @@ html {
 
 /* ================== */
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: #fff;
   color: #131313;
   font-size: 14px;
@@ -111,12 +111,134 @@ body {
   padding: 42px 20px;
   text-transform: uppercase;
   line-height: 1.21;
-  -webkit-transition: all .5s;
-  -o-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
 }
 
 .menu__link:hover {
   background-color: #131313;
   color: #fff;
+}
+
+.bike__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 100px 0px 150px 0px;
+}
+
+.bike__column-slider {
+  -ms-flex-preferred-size: 630px;
+      flex-basis: 630px;
+  margin: 0px 0px 0px 30px;
+  max-width: 630px;
+}
+
+.bike__title {
+  font-weight: 700;
+  font-size: 64px;
+  margin: 60px 0px 5px 0px;
+}
+
+.bike__sub-title {
+  font-size: 32px;
+  color: #6f6f6f;
+  margin: 0px 0px 60px 0px;
+}
+
+.bike__text {
+  margin: 0px 0px 20px 0px;
+  max-width: 420px;
+}
+
+.bike__link {
+  display: inline-block;
+  margin: 80px 0px 0px 0px;
+  padding: 28px 81px;
+  font-size: 20px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #131313;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.bike__link:hover {
+  background-color: #ff4040;
+}
+
+.bike-slider .slick-dots {
+  top: 52px;
+  right: 0;
+}
+
+.bike__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 25px 65px 0px 0px;
+}
+
+.bike__list-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-width: 160px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  min-height: 58px;
+}
+
+.bike__list-num {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.bike__list-text {
+  font-size: 12px;
+  line-height: 1.25;
+  margin: auto 0;
+}
+
+.slick-dots {
+  position: absolute;
+}
+
+.slick-dots li:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 2px;
+  height: 25px;
+  background-color: #131313;
+  border-radius: 7px;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.slick-dots button:hover {
+  background-color: #ff4040;
+}
+
+.slick-active button {
+  background-color: #ff4040;
 }
