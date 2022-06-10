@@ -340,3 +340,38 @@ body {
 		flex-basis: 570px;
 	}
 }
+
+.slider {
+
+	// .slider__container
+
+	&__container {
+	}
+
+	// .slider__inner
+
+	&__inner {
+		margin: 0px 0px 50px 0px;
+	}
+
+	// .slider__items
+
+	&__items {
+		.slick-dots {
+			top: 0;
+			left: 0;
+		}
+	}
+
+	// .slider__item
+
+	&__item {
+		padding: 0px 0px 0px 50px;
+	}
+
+	// .slider__img
+
+	&__img {
+	}
+}
+
