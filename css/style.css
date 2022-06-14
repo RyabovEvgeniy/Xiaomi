@@ -442,6 +442,24 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin: 0px 0px 50px 0px;
+}
+
+.form__label:not(:last-child) {
+  margin: 0px 23px 0px 0px;
+}
+
+.form__input-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.form__input-radio:checked ~ .form__radio-style {
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .form__bike {
@@ -452,11 +470,6 @@ body {
   border-radius: 30px;
   width: 80px;
   height: 12px;
-  margin: 0px 23px 0px 0px;
-}
-
-.form__radio-style:not(:last-child) {
-  margin: 0px 23px 0px 0px;
 }
 
 .form__radio-style_grey {

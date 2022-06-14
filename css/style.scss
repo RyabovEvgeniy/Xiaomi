@@ -451,16 +451,30 @@ body {
 
 	&__label-box {
 		display: flex;
+		margin: 0px 0px 50px 0px;
 	}
 
 	// .form__label
 
 	&__label {
+		&:not(:last-child) {
+			margin: 0px 23px 0px 0px;
+		}
 	}
 
 	// .form__input-radio
 
 	&__input-radio {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		overflow: hidden;
+		clip: rect(0 0 0 0);
+		&:checked {
+			~ .form__radio-style {
+				box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+			}
+		}
 	}
 
 	// .form__bike
@@ -485,10 +499,7 @@ body {
 		border-radius: 30px;
 		width: 80px;
 		height: 12px;
-		margin: 0px 23px 0px 0px;
-		&:not(:last-child) {
-			margin: 0px 23px 0px 0px;
-		}
+		// box-shadow: 0 0 10px rgba(216, 10, 10, 0.5);
 	}
 
 	// .form__radio-style_grey
