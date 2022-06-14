@@ -137,6 +137,7 @@ body {
 		text-transform: uppercase;
 		color: #ffffff;
 		background-color: #131313;
+		cursor: pointer;
 		transition: all 0.5s;
 		&:hover {
 			background-color: #ff4040;
@@ -407,6 +408,20 @@ body {
 	// .form__btn
 
 	&__btn {
+		display: inline-block;
+		margin: 50px 0px 0px 0px;
+		padding: 28px 81px;
+		font-size: 20px;
+		letter-spacing: 1.1em;
+		text-transform: uppercase;
+		color: #ffffff;
+		background-color: #131313;
+		cursor: pointer;
+		transition: all 0.5s;
+		&:hover {
+			background-color: #ff4040;
+		}
+
 	}
 
 	// .form__input-name
@@ -498,8 +513,7 @@ body {
 	&__radio-style {
 		border-radius: 30px;
 		width: 80px;
-		height: 12px;
-		// box-shadow: 0 0 10px rgba(216, 10, 10, 0.5);
+		height: 12px;		
 	}
 
 	// .form__radio-style_grey

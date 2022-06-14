@@ -164,6 +164,7 @@ body {
   text-transform: uppercase;
   color: #ffffff;
   background-color: #131313;
+  cursor: pointer;
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
   transition: all 0.5s;
@@ -372,6 +373,25 @@ body {
 .form__text {
   margin: 0px 0px 29px 0px;
   max-width: 300px;
+}
+
+.form__btn {
+  display: inline-block;
+  margin: 50px 0px 0px 0px;
+  padding: 28px 81px;
+  font-size: 20px;
+  letter-spacing: 1.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #131313;
+  cursor: pointer;
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.form__btn:hover {
+  background-color: #ff4040;
 }
 
 .form__input-name {
