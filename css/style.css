@@ -128,7 +128,7 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 100px 0px 150px 0px;
+  margin: 100px 0px 0px 0px;
 }
 
 .bike__column-slider {
@@ -244,11 +244,15 @@ body {
   background-color: #ff4040;
 }
 
+.info {
+  padding: 150px 0px 0px 0px;
+}
+
 .info__inner {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px 0px 150px 0px;
+  margin: 0px 0px 50px 0px;
 }
 
 .info__img {
@@ -281,6 +285,10 @@ body {
   line-height: 1.21;
 }
 
+.feature {
+  padding: 100px 0px 0px 0px;
+}
+
 .feature__head {
   font-weight: 700;
   font-size: 16px;
@@ -293,7 +301,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 0px 0px 150px 0px;
+  margin: 0px 0px 50px 0px;
 }
 
 .feature__items {

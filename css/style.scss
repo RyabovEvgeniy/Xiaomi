@@ -90,7 +90,7 @@ body {
 	&__inner {
 		display: flex;
 		justify-content: space-between;
-		margin: 100px 0px 150px 0px;
+		margin: 100px 0px 0px 0px;
 	}
 
 	// .bike__column
@@ -213,6 +213,7 @@ body {
 }
 
 .info {
+	padding: 150px 0px 0px 0px;
 	// .info__container
 
 	&__container {
@@ -222,7 +223,7 @@ body {
 
 	&__inner {
 		display: flex;
-		margin: 0px 0px 150px 0px;
+		margin: 0px 0px 50px 0px;
 	}
 
 	// .info__img
@@ -266,6 +267,7 @@ body {
 }
 
 .feature {
+	padding: 100px 0px 0px 0px;
 	// .feature__container
 
 	&__container {
@@ -285,7 +287,7 @@ body {
 
 	&__inner {
 		display: flex;
-		margin: 0px 0px 150px 0px;
+		margin: 0px 0px 50px 0px;
 	}
 
 	// .feature__items
