@@ -356,6 +356,7 @@ body {
 
 .price__inner {
   margin: 0px 0px 100px 0px;
+  position: relative;
 }
 
 .form {
@@ -482,8 +483,50 @@ body {
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
+.form__input-radio:checked + .form__bike {
+  display: block;
+}
+
 .form__bike {
   display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.form__bike-price {
+  font-size: 32px;
+  line-height: 1.21;
+  position: absolute;
+  top: 28px;
+  right: 0;
+  left: 0;
+  width: 221px;
+  height: 112px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transform: translateX(-40%);
+      -ms-transform: translateX(-40%);
+          transform: translateX(-40%);
+  border: 1px solid #ff4040;
+  border-radius: 50%;
+}
+
+.form__bike-price::after {
+  content: "";
+  position: absolute;
+  width: 221px;
+  height: 112px;
+  top: 12px;
+  border: 1px solid #ff4040;
+  border-radius: 50%;
 }
 
 .form__radio-style {
