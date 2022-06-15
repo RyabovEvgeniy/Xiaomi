@@ -548,3 +548,53 @@ body {
 .form__radio-style_red {
   background: #ff4040;
 }
+
+.footer {
+  background-color: #131313;
+}
+
+.footer__inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100px;
+  color: #ffffff;
+}
+
+.footer__link {
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.footer__social-link:not(:last-child) {
+  margin: 0px 26px 0px 0px;
+}
+
+.footer__contacts {
+  font-size: 12px;
+  line-height: 1.25;
+}
+
+.footer__contacts-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__contacts-link:not(:last-child) {
+  margin: 0px 0px 10px 0px;
+}
+
+.footer__contacts-img {
+  margin: 0px 10px 0px 0px;
+}

@@ -411,7 +411,7 @@ body {
 	&__btn {
 		display: inline-block;
 		margin: 50px 0px 0px 0px;
-		padding: 28px 72px 28px 72px;;
+		padding: 28px 72px 28px 72px;
 		font-size: 20px;
 		letter-spacing: 1.1em;
 		text-transform: uppercase;
@@ -564,4 +564,73 @@ body {
 	&__radio-style_red {
 		background: #ff4040;
 	}
+}
+
+.footer {
+	background-color: #131313;
+
+	// .footer__container
+
+	&__container {
+	}
+
+	// .footer__inner
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 100px;
+		color: #ffffff;
+	}
+
+	// .footer__link
+
+	&__link {
+		text-decoration: underline;
+		font-size: 12px;
+		line-height: 1.25;
+	}
+
+	// .footer__social
+
+	&__social {
+	}
+
+	// .footer__social-link
+
+	&__social-link {
+		&:not(:last-child) {
+			margin: 0px 26px 0px 0px;
+		}
+	}
+
+	// .footer__social-img
+
+	&__social-img {
+	}
+
+	// .footer__contacts
+
+	&__contacts {
+		font-size: 12px;
+		line-height: 1.25;
+	}
+
+	// .footer__contacts-link
+
+	&__contacts-link {
+		display: flex;
+		align-items: center;
+		&:not(:last-child) {
+			margin: 0px 0px 10px 0px;
+		}
+
+	}
+
+		// .footer__contacts-img
+
+		&__contacts-img {
+			margin: 0px 10px 0px 0px;
+		}
 }
