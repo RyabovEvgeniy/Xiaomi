@@ -1,3 +1,22 @@
+@media (max-width: 1140px) {
+  .form__bike-img {
+    width: 500px;
+  }
+  .form__bike {
+    top: 104px;
+  }
+  .form__bike-price {
+    width: 150px;
+    height: 75px;
+    font-size: 21px;
+  }
+  .form__bike-price::after {
+    width: 150px;
+    height: 75px;
+    top: 8px;
+  }
+}
+
 @media (max-width: 1110px) {
   .bike__inner {
     -ms-flex-wrap: wrap;
@@ -133,7 +152,7 @@
   }
   .bike__link {
     padding: 15px 15px;
-    letter-spacing: .9em;
+    letter-spacing: 0.9em;
   }
   .bike__list {
     -webkit-box-pack: center;
