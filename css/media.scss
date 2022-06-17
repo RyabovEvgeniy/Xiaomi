@@ -13,6 +13,18 @@
 		max-width: 100%;
 		margin: 0px 0px 0px 0px;
 	}
+	.info {
+		padding: 50px 0px 0px 0px;
+	}
+	.info__img {
+		display: none;
+	}
+	.info__content {
+		flex-basis: 100%;
+	}
+	.info__item-text {
+		max-width: 100%;
+	}
 }
 @media (max-width: 991px) {	
 	.header__menu {
@@ -46,6 +58,9 @@
 	.bike__list-item {
 		width: 50%;
 		margin: 0px 0px 15px 0px;
+	}
+	.info__item:not(:last-child) {
+		margin: 0px 0px 30px 0px;
 	}
 }
 @media (max-width: 460px) {
