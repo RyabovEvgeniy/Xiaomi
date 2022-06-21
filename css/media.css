@@ -202,6 +202,27 @@
   .form__bike-img {
     width: 450px;
   }
+  .footer__inner {
+    display: block;
+    height: auto;
+    padding: 15px 0px;
+    text-align: center;
+  }
+  .footer__social {
+    padding: 15px 0px;
+  }
+  .footer__contacts {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
 }
 
 @media (max-width: 465px) {
