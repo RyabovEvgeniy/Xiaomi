@@ -57,6 +57,12 @@
 		right: -64px;
 		left: auto;
 	}
+	.menu__link {
+		&:hover {
+			background-color: #fff;
+			color: #131313;
+		}
+	}
 }
 @media (max-width: 991px) {
 	.header__menu {
